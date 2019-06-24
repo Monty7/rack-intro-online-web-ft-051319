@@ -4,6 +4,7 @@ class Application
     resp = Rack::Response.new
     
     resp.write "HEY ITS ME MONTY!!!!"
+    resp.write "YOOOOO!!!!!"
     resp.finish
   end
 
